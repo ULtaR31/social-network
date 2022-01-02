@@ -1,0 +1,29 @@
+.Nav{
+  grid-area:n;
+  background-color:#bbbfff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow:column;
+  align-items:center;
+}
+.Nav div {
+  margin:30px 0;
+  text-align: center;
+  width: 100%;
+}
+.Item a {
+  color: green;
+  transition: .1s;
+  padding: 5px;
+  font: 1.5em sans-serif;
+  width: inherit;
+}
+.Item a:hover{
+  color: black;
+  background-color: white;
+}
+.Item a{
+  cursor: pointer;
+}

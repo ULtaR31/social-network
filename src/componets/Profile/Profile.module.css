@@ -1,0 +1,109 @@
+.Content{
+  grid-area:c;
+  background-color:#bbbbbb;
+  overflow-x:hidden;
+  height: calc(100vh - 60px);
+}
+.Content img {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.profile_logo {
+  width: 100px;
+  display:inline-block ;
+  overflow: hidden;
+  margin: 20px;
+  border-radius:10px;
+  transition:.2s;
+}
+.profile_logo:hover {
+    box-shadow: 0 0 20px 3px greenyellow;
+
+}
+.AboutFon {
+  position: relative
+  z-index 1;
+}
+.AboutFon img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.profile_logo img {
+  position: relative;
+  transition:.2s;
+}
+
+.About {
+  width: 90%;
+  display: flex;
+  position: relative;
+  top: -50px;
+  flex-flow:row;
+  box-shadow:10px 5px 30px 2px ;
+  z-index: 2;
+  margin-left: 20px;
+  background-color: #bbb;
+}
+.Disc {
+  margin: 20px;
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow:column wrap;
+  box-shadow: 0 0 20px 3px greenyellow;
+}
+.Posts {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display:flex;
+  justify-content: center;
+  flex-flow:column;
+  align-items:center;
+  padding: 10px 0;
+  background-color: grey;
+  text-align: center;
+}
+.Posts p{
+  font: 2em sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+.ItemN {
+  width: 90%;
+  height: auto;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,.5);
+}
+.ItemN p {
+  font: 1em sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.postN {
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-flow:wrap column;
+  margin: 20px auto;
+  background-color: rgb(85, 85, 85);
+  padding: 5px;
+}
+.postT p{
+  width: 100%;
+  text-align:left;
+}
+
+.postC {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  border: 1px solid rgba(0,0,0,.6);
+}
